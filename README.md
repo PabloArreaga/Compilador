@@ -1,2 +1,2 @@
 # Compilador
-Mi Primer compilador
+Mi Primer compilador ~ Pablo Arreaga 1331818
