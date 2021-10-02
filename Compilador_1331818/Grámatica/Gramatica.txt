@@ -1,0 +1,22 @@
+Grámatica:
+
+E → TE'
+E' → +TE' | -TE' | eps
+T → FT'
+T' → *FT' | /FT' | eps
+F → P | -F
+P → NUMBER Q | (E) 
+Q → NUMBER Q | eps
+
+
+
+Caracteres:
+
+PLUS				+
+MINUS				-
+MULTIPLICATION			*
+DIVISION			/
+LPAREN				(
+RPAREN				)
+EOF				Char(0)
+NUMBER				[0-9]
